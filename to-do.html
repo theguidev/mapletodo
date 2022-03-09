@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Maple To-Do</title>
+    <link rel="icon" href="/To-Do/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="to-do.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="logo.png" alt=""></a>
+        <nav class="nav">
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="to-do.html">To-Do</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+        <a class="github" href="https://github.com/theguidev" target="_blank"><button>GitHub</button></a>
+    </header>
+
+    <div class="container">
+        <div id="newtask">
+            <input type="text" placeholder="Digite aqui sua To-Do.">
+            <button id="push">Adicionar</button>
+        </div>
+        <div id="tasks"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
